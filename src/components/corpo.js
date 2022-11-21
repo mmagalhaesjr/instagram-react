@@ -4,15 +4,14 @@ import Posts from "./posts"
 import Stories from "./stories"
 
 
-export default function Corpo(){
+export default function Corpo() {
     return (
         <div class="corpo">
             <div class="esquerda">
-              <Stories/>
-              <Posts/>
+                <Stories />
+                <Posts />
             </div>
-            <SideBar/>
-            
+            <SideBar />
         </div>
     )
 }

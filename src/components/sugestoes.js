@@ -29,6 +29,6 @@ function Sugestao(props) {
 
       <div class="seguir">Seguir</div>
     </div>
-  
+
   )
 }

@@ -7,14 +7,17 @@ export default function Usuario() {
 
   function trocaNome() {
     const resposta = prompt('Digite seu nome')
-    setNome(resposta)
+    if (resposta !== "") {
+      setNome(resposta)
+    }
   }
 
   function trocaImagem() {
     const troca = prompt('Qual a URL da sua imagem?')
-    setImg(troca)
+    if (troca !== "") {
+      setImg(troca)
+    }
   }
-
 
   return (
     <div data-test="user" class="usuario">
